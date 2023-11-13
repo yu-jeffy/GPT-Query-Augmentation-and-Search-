@@ -4,6 +4,9 @@ Leveraging GPT for query refinement and information retrieval from web searches.
 ## About
 This Node.js application uses GPT-4 to optimize user search queries for Google Search. It interfaces with the OpenAI API to rewrite queries and the Google Custom Search JSON API to fetch and display the top 5 search results.
 
+
+Implementation inspired by the concepts discussed in the paper: ["A Methodology for Rewriting Queries using OpenAI's GPT-3"](https://arxiv.org/abs/2305.14283).
+
 ## Set-Up
 
 ### Prerequisites
@@ -42,6 +45,10 @@ This Node.js application uses GPT-4 to optimize user search queries for Google S
 
 <p align="center">
   <img src="readmegif1.gif" alt="Demo GIF" style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);">
+</p>
+
+<p align="center">
+  <img src="readmegif2.gif" alt="Demo GIF" style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);">
 </p>
 
 ### Performing a Query
