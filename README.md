@@ -1,5 +1,5 @@
 # GPT-Query-Augmentation-and-Search-
-Leveraging GPT for query refinement and information retrieval from web searches.
+Leveraging GPT for query refinement and information retrieval from web searches. (information retrieval is WIP)
 
 ## About
 This Node.js application uses GPT-4 to optimize user search queries for Google Search. It interfaces with the OpenAI API to rewrite queries and the Google Custom Search JSON API to fetch and display the top 5 search results.
