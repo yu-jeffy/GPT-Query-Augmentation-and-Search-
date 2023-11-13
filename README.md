@@ -40,6 +40,10 @@ This Node.js application uses GPT-4 to optimize user search queries for Google S
 
 ## Usage
 
+<p align="center">
+  <img src="readmegif1.gif" alt="Demo GIF" style="box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);">
+</p>
+
 ### Performing a Query
 1. Open your web browser and navigate to `http://localhost:3000`.
 2. You will see a text area where you can enter your initial search query.
