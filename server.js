@@ -54,11 +54,11 @@ app.post('/rewrite-query', async (req, res) => {
             messages: [
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant. Your task is to rewrite queries to make them more effective for a Google search."
+                    "content": "You are a helpful assistant. Your primary task is to transform queries to optimize their effectiveness for a Google search. When given simple or vague prompts, expand them to add relevant details and specificity. Aim to show a dramatic improvement in the query's ability to return precise and useful search results."
                 },
                 {
                     "role": "user",
-                    "content": `Rewrite the following query to make it more effective for a Google search: ${query}`
+                    "content": `Transform the following query for an optimized Google search and, if it's simple or vague, enhance it with specific details: ${query}`
                 }
             ],
         });
